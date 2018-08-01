@@ -215,7 +215,7 @@ Also try dh -d with handle number to get more information on that handle.
 Note:
 
 
----?image=/assets/images/slides2/Slide17.JPG
+---?image=/assets/images/slides/Slide17.JPG
 @title[Shell Load Command ]
 ### <p align="right"><span class="gold" >Shell "Dmpstore"</span></p>
 
@@ -257,7 +257,7 @@ Benefits: These files allow users to simplify routine or repetitive tasks. <br>
 - Allow branching and looping in a script. 
 - Allow users to control input and output and call other batch programs (known as script nesting). 
 
----?image=/assets/images/slides2/Slide22.JPG
+---?image=/assets/images/slides/Slide22.JPG
 @title[Writing UEFI Shell Scripts]
 ### <p align="right"><span class="gold" >Writing UEFI Shell Scripts </span></p>
 
