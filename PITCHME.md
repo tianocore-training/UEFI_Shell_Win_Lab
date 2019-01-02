@@ -61,17 +61,22 @@ Note:
 
 ---?image=/assets/images/slides/Slide4.JPG
 @title[Running Nt32]
-<p align="right"><span class="gold" >Invoke NT32 Emulation</span></p>
+<p align="right"><span class="gold" ><b>Invoke NT32 Emulation</b></span></p>
+@snap[north-west span-35]
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" ></span>
+From the VS command Prompt
+<pre>
+```
+ CD \FW\edk2
+ C:\FW\edk2> edksetup
+ C:\FW\edk2> Build 
+ C:\FW\edk2> Build Run
+```
+</pre>
+
+@snapend
 
 
 Note:
@@ -89,7 +94,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide5.JPG
 @title[Nt32 boot to UEFI Shell]
-<p align="right"><span class="gold" >Nt32 boot to UEFI Shell</span></p>
+<p align="right"><span class="gold" ><b>Nt32 boot to UEFI Shell</b></span></p>
 
 <br>
 <br>
@@ -117,16 +122,23 @@ Note:
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commands from the Command Line Interface</span>
 
 
----?image=/assets/images/slides/Slide7.JPG
+---
 @title[Common Shell Commands ]
 ### <p align="right"><span class="gold" >Common Shell Commands For Debugging</span></p>
+@snap[west span-30]
+@box[bg-grey-05 text-white  rounded](<p align="left" style="line-height:80%"><span style="font-size:0.8em" >&nbsp; `help`<br>&nbsp;  `mm`<br>&nbsp; `mem`<br>&nbsp; `memmap`<br>&nbsp; `drivers`<br>&nbsp; `devices`<br>&nbsp; `devtree`<br>&nbsp; `dh`<br>&nbsp; `Load`<br>&nbsp; `dmpstore`<br>&nbsp; `stall`</span></p>)
+@snapend
 
+@snap[east span-65]
+@box[bg-royal text-white  rounded](<b>"-b" is the command line parameter for breaking after each page.</b><br>)
+@snapend
 
 Note:
 
 Next for this lab there are a few shell commands that will help us with debugging. For example if you are writing a driver, you would want to get familiar with these shell commands. Each of these commands will have a help option to give you further information about these commands.
 
 We are not going to go all were these in detail but just to make you aware of the shell commands.
+
 
 
 ---?image=/assets/images/slides/Slide8.JPG
